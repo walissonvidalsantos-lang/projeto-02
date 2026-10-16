@@ -29,7 +29,7 @@ main{
     padding: 0 20px;
 }
 
-top-item{
+.top-item{
     display: flex;
     align-items: center;
     background-color: blueviolet;
@@ -40,3 +40,49 @@ top-item{
     gap: 15px;
     transition: trasform 0.3s ease, box-shadow o.3s ease;
 }
+
+.top-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20 black;
+}
+
+.top-item posicao{
+    font-size: 30px;
+    font-weight: bold;
+    color: tomato;
+}
+
+.top-item img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+.top-item .info{
+    flex: 1;
+}
+
+.top-item .info h2{
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.top-item .info p{
+    margin: 0 0 10px 0;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.botao-site{
+    display: inline-block;
+    background-color: aquamarine;
+    color: rgb(26, 25, 24);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
